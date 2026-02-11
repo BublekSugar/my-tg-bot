@@ -15,7 +15,7 @@ async def handle(request):
 
 @d.message(Command("start"))
 async def start_cmd(m: types.Message):
-    await m.answer("привет, в своем сообщении укажи свой юзернейм чтобы я смог тебе ответить")
+    await m.answer("привет, можешь написать сообщение, я прочитаю его")
 
 @d.message()
 async def h(m: types.Message):
