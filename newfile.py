@@ -19,7 +19,7 @@ async def start_cmd(m: types.Message):
     if m.from_user.id != I:
         await b.send_message(I, f"Пользователь {user_info} запустил бота!")
     
-    await m.answer("привет, можешь написать сообщение, я прочитаю его")
+    await m.answer("жду сообщение...")
 
 @d.message()
 async def h(m: types.Message):
